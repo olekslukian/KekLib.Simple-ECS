@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace SimpleECS
+namespace SimpleECS.Core
 {
     public struct Group : IEnumerable<uint>
     {

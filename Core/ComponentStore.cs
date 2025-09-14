@@ -1,6 +1,7 @@
 using System;
+using SimpleECS.Core;
 
-namespace SimpleECS
+namespace SimpleEcs.Core
 {
     public interface IComponentStore
     {

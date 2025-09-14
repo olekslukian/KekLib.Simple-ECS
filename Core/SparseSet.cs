@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace SimpleECS
+namespace SimpleECS.Core
 {
     public class SparseSet : IEnumerable<uint>
     {
@@ -26,7 +26,7 @@ namespace SimpleECS
             object IEnumerator.Current => current;
 
             public void Dispose()
-            {}
+            { }
 
             public bool MoveNext()
             {

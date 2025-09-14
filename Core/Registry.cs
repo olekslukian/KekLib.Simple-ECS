@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using SimpleEcs.Core;
 
-namespace SimpleECS
+namespace SimpleECS.Core
 {
     public class Registry
     {

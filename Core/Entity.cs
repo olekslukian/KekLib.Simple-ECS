@@ -1,4 +1,4 @@
-namespace SimpleECS
+namespace SimpleECS.Core
 {
     public readonly struct Entity
     {

@@ -1,8 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using SimpleEcs.Core;
 
-namespace SimpleECS
+namespace SimpleECS.Core
 {
     public struct View<T> : IEnumerable<uint>
     {
@@ -46,7 +47,7 @@ namespace SimpleECS
             object IEnumerator.Current => setEnumerator.Current;
 
             public void Dispose()
-            {}
+            { }
 
             public bool MoveNext()
             {
@@ -100,7 +101,7 @@ namespace SimpleECS
             object IEnumerator.Current => setEnumerator.Current;
 
             public void Dispose()
-            {}
+            { }
 
             public bool MoveNext()
             {
