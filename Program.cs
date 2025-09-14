@@ -1,4 +1,5 @@
 using System;
+using SimpleECS.Core;
 
 namespace SimpleECS
 {
